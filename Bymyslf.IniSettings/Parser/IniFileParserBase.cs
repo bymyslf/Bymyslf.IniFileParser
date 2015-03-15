@@ -4,7 +4,7 @@ using System.IO;
 
 namespace Bymyslf.IniSettings.Parser
 {
-    internal abstract class IniFileParserBase
+    public abstract class IniFileParserBase
     {
         protected List<string> commentsListAux;
         protected string sectionAux;
