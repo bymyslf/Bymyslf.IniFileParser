@@ -42,6 +42,7 @@
     <Compile Include="IO\IIniFileReader.cs" />
     <Compile Include="IO\IIniFileWriter.cs" />
     <Compile Include="IniFile.cs" />
+    <Compile Include="IO\IniFileInMemoryReader.cs" />
     <Compile Include="Parser\IniFileStreamParser.cs" />
     <Compile Include="IO\IniFileStreamReader.cs" />
     <Compile Include="IO\IniFileStreamWriter.cs" />
