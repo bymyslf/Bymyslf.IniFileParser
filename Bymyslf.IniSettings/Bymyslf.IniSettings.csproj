@@ -52,6 +52,7 @@
     <Compile Include="Parser\IIniFileStringParser.cs" />
     <Compile Include="Parser\IIniFileStreamParser.cs" />
     <Compile Include="Parser\IniFileParserBase.cs" />
+    <Compile Include="Parser\IniFileStringParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

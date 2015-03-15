@@ -28,7 +28,7 @@ namespace Bymyslf.IniSettings.IO
 
             if (parser == null)
             {
-                throw new ArgumentException("Parser cannot be null!");
+                throw new ArgumentNullException("Parser cannot be null!");
             }
 
             this.filePath = path;

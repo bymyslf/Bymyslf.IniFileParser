@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Bymyslf.IniSettings.Parser
 {
@@ -6,6 +7,11 @@ namespace Bymyslf.IniSettings.Parser
     {
         public IniFile Parse(StreamReader iniFileStream)
         {
+            if (iniFileStream == null)
+            {
+                throw new ArgumentNullException("iniFileStream cannot be null!");
+            }
+
             IniFile file = new IniFile();
 
             commentsListAux.Clear();
