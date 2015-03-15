@@ -11,9 +11,6 @@ namespace Bymyslf.IniSettings.IO
         private readonly string filePath;
         private readonly IIniFileStreamParser parser;
 
-        private List<string> commentsListAux;
-        private string sectionAux;
-
         public IniFileStreamReader(string path)
             : this(path, new IniFileStreamParser())
         {
