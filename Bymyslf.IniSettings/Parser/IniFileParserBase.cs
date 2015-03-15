@@ -6,7 +6,7 @@ namespace Bymyslf.IniSettings.Parser
 {
     public abstract class IniFileParserBase
     {
-        protected List<string> commentsListAux;
+        protected readonly List<string> commentsListAux = new List<string>();
         protected string sectionAux;
 
         protected void ReadLine(string currentLine, IniFile file)
@@ -60,6 +60,7 @@ namespace Bymyslf.IniSettings.Parser
 
             if (file.Sections.ContainsSection(sectionName))
             {
+                //TO DO: throw exception
             }
 
             file.Sections.AddSection(sectionName);

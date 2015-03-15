@@ -10,6 +10,8 @@ namespace Bymyslf.IniSettings
     {
         public IniFile()
         {
+            this.sections = new IniSectionCollection();
+            this.globalScope = new IniKeyCollection();
         }
 
         public IniSection this[string sectionName]
@@ -25,7 +27,12 @@ namespace Bymyslf.IniSettings
             }
         }
 
-        public IniKeyCollection GlobalScope { get; private set; }
+        private IniKeyCollection globalScope;
+
+        public IniKeyCollection GlobalScope
+        {
+            get { return globalScope; }
+        }
 
         private IniSectionCollection sections;
 
