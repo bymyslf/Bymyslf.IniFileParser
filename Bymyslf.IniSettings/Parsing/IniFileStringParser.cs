@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bymyslf.IniSettings.Parser
+namespace Bymyslf.IniSettings.Parsing
 {
     public class IniFileStringParser : IniFileParserBase, IIniFileStringParser
     {

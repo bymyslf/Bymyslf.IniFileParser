@@ -1,4 +1,4 @@
-﻿using Bymyslf.IniSettings.Parser;
+﻿using Bymyslf.IniSettings.Parsing;
 using System;
 using System.Collections.Generic;
 using System.IO;

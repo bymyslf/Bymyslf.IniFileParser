@@ -1,4 +1,4 @@
-﻿using Bymyslf.IniSettings.Formatter;
+﻿using Bymyslf.IniSettings.Formatting;
 using System;
 using System.IO;
 using System.Text;

@@ -39,23 +39,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formatter\IIniFileFormatter.cs" />
-    <Compile Include="Formatter\IniFileFormatter.cs" />
+    <Compile Include="Formatting\IIniFileFormatter.cs" />
+    <Compile Include="Formatting\IniFileFormatter.cs" />
     <Compile Include="IO\IIniFileReader.cs" />
     <Compile Include="IO\IIniFileWriter.cs" />
     <Compile Include="IniFile.cs" />
     <Compile Include="IO\IniFileInMemoryReader.cs" />
-    <Compile Include="Parser\IniFileStreamParser.cs" />
+    <Compile Include="Parsing\IniFileStreamParser.cs" />
     <Compile Include="IO\IniFileStreamReader.cs" />
     <Compile Include="IO\IniFileStreamWriter.cs" />
     <Compile Include="IniKey.cs" />
     <Compile Include="IniKeyCollection.cs" />
     <Compile Include="IniSection.cs" />
     <Compile Include="IniSectionCollection.cs" />
-    <Compile Include="Parser\IIniFileStringParser.cs" />
-    <Compile Include="Parser\IIniFileStreamParser.cs" />
-    <Compile Include="Parser\IniFileParserBase.cs" />
-    <Compile Include="Parser\IniFileStringParser.cs" />
+    <Compile Include="Parsing\IIniFileStringParser.cs" />
+    <Compile Include="Parsing\IIniFileStreamParser.cs" />
+    <Compile Include="Parsing\IniFileParserBase.cs" />
+    <Compile Include="Parsing\IniFileStringParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

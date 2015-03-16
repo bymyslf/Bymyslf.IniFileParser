@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Bymyslf.IniSettings.Parser
+namespace Bymyslf.IniSettings.Parsing
 {
     public abstract class IniFileParserBase
     {
