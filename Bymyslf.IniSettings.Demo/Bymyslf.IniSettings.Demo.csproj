@@ -47,7 +47,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="test.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
