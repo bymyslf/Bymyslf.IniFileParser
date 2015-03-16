@@ -1,4 +1,4 @@
-﻿namespace Bymyslf.IniSettings.Parsing
+﻿namespace Bymyslf.IniFileParser.Parsing
 {
     public interface IIniFileStringParser
     {

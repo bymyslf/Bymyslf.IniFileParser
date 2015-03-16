@@ -1,4 +1,4 @@
-﻿namespace Bymyslf.IniSettings.Formatting
+﻿namespace Bymyslf.IniFileParser.Formatting
 {
     public interface IIniFileFormatter
     {

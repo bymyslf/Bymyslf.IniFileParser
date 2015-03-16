@@ -1,5 +1,5 @@
-﻿using Bymyslf.IniSettings;
-using Bymyslf.IniSettings.IO;
+﻿using Bymyslf.IniFileParser;
+using Bymyslf.IniFileParser.IO;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bymyslf.IniSettings.Demo
+namespace Bymyslf.IniFileParser.Demo
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Bymyslf.IniSettings.Parsing
+namespace Bymyslf.IniFileParser.Parsing
 {
     public interface IIniFileStreamParser
     {

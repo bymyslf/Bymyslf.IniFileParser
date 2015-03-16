@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bymyslf.IniSettings.Formatting
+namespace Bymyslf.IniFileParser.Formatting
 {
     public class IniFileFormatter : IIniFileFormatter
     {

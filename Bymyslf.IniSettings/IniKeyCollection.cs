@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Bymyslf.IniSettings
+namespace Bymyslf.IniFileParser
 {
     public class IniKeyCollection : IEnumerable<IniKey>
     {

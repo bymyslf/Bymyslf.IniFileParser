@@ -7,7 +7,7 @@
     <ProjectGuid>{8A2EA205-41F2-4A16-A4AD-B5304C632033}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bymyslf.IniSettings.Demo</RootNamespace>
+    <RootNamespace>Bymyslf.IniFileParser.Demo</RootNamespace>
     <AssemblyName>Bymyslf.IniSettings.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

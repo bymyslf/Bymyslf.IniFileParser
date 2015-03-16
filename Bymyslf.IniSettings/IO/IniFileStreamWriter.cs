@@ -1,9 +1,9 @@
-﻿using Bymyslf.IniSettings.Formatting;
+﻿using Bymyslf.IniFileParser.Formatting;
 using System;
 using System.IO;
 using System.Text;
 
-namespace Bymyslf.IniSettings.IO
+namespace Bymyslf.IniFileParser.IO
 {
     public class IniFileStreamWriter : IIniFileWriter
     {

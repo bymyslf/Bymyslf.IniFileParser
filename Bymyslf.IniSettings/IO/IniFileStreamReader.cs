@@ -1,10 +1,10 @@
-﻿using Bymyslf.IniSettings.Parsing;
+﻿using Bymyslf.IniFileParser.Parsing;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Bymyslf.IniSettings.IO
+namespace Bymyslf.IniFileParser.IO
 {
     public class IniFileStreamReader : IIniFileReader
     {

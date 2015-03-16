@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Bymyslf.IniSettings
+namespace Bymyslf.IniFileParser
 {
     public class IniSection
     {
