@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Bymyslf.IniSettings")]
+[assembly: AssemblyTitle("Bymyslf.IniFileParser.Demo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Bymyslf.IniSettings")]
+[assembly: AssemblyProduct("Bymyslf.IniFileParser.Demo")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b7f0f770-5b3e-43aa-ac9c-3bfa758e2d59")]
+[assembly: Guid("2742b44d-ccd8-4c7b-aefa-6127d10e7e25")]
 
 // Version information for an assembly consists of the following four values:
 //

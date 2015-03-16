@@ -51,9 +51,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bymyslf.IniSettings\Bymyslf.IniSettings.csproj">
+    <ProjectReference Include="..\Bymyslf.IniFileParser\Bymyslf.IniFileParser.csproj">
       <Project>{975baf9d-4f2e-45a5-a944-8280cfed9878}</Project>
-      <Name>Bymyslf.IniSettings</Name>
+      <Name>Bymyslf.IniFileParser</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
