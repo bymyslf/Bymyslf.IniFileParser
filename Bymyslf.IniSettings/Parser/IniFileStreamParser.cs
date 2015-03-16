@@ -9,7 +9,7 @@ namespace Bymyslf.IniSettings.Parser
         {
             if (iniFileStream == null)
             {
-                throw new ArgumentNullException("iniFileStream cannot be null!");
+                throw new ArgumentNullException("iniFileStream cannot be null");
             }
 
             IniFile file = new IniFile();

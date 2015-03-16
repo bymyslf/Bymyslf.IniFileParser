@@ -35,7 +35,7 @@ namespace Bymyslf.IniSettings
         {
             if (String.IsNullOrEmpty(sectionName))
             {
-                throw new ArgumentException("sectionName cannot be null or empty!");
+                throw new ArgumentException("sectionName cannot be null or empty");
             }
 
             if (!ContainsSection(sectionName))

@@ -43,7 +43,7 @@ namespace Bymyslf.IniSettings
         {
             if (String.IsNullOrEmpty(keyName))
             {
-                throw new ArgumentException("keyName cannot be null or empty!");
+                throw new ArgumentException("keyName cannot be null or empty");
             }
 
             if (!ContainsKey(keyName))
@@ -59,6 +59,11 @@ namespace Bymyslf.IniSettings
         {
             if (AddKey(keyName))
             {
+                if (String.IsNullOrEmpty(keyValue))
+                {
+                    throw new ArgumentException("keyValue cannot be null or empty");
+                }
+
                 this.keys[keyName].Value = keyValue;
                 return true;
             }

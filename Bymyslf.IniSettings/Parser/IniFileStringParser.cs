@@ -8,7 +8,7 @@ namespace Bymyslf.IniSettings.Parser
         {
             if (String.IsNullOrEmpty(iniFileString))
             {
-                throw new ArgumentException("iniFileString cannot be null or empty!");
+                throw new ArgumentException("iniFileString cannot be null or empty");
             }
 
             IniFile file = new IniFile();

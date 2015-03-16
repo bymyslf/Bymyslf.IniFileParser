@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formatter\IIniFileFormatter.cs" />
+    <Compile Include="Formatter\IniFileFormatter.cs" />
     <Compile Include="IO\IIniFileReader.cs" />
     <Compile Include="IO\IIniFileWriter.cs" />
     <Compile Include="IniFile.cs" />

@@ -4,8 +4,8 @@ namespace Bymyslf.IniSettings.IO
 {
     public interface IIniFileWriter
     {
-        void Write();
+        void Write(IniFile iniFile);
 
-        void Write(Encoding fileEncoding);
+        void Write(IniFile iniFile, Encoding fileEncoding);
     }
 }

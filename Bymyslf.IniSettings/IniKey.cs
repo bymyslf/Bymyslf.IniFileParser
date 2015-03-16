@@ -26,7 +26,7 @@ namespace Bymyslf.IniSettings
             {
                 if (!string.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentNullException("Key cannot be null or empty!");
+                    throw new ArgumentException("Key cannot be null or empty");
                 }
 
                 this.key = value;
