@@ -64,7 +64,7 @@ namespace Bymyslf.IniSettings.Parsing
             }
 
             file.Sections.AddSection(sectionName);
-            file.Sections[sectionName].Comments = commentsListAux;
+            file.Sections[sectionName].Comments.AddRange(commentsListAux);
 
             commentsListAux.Clear();
         }
@@ -96,7 +96,7 @@ namespace Bymyslf.IniSettings.Parsing
                 keyCollection.AddKey(key, value);
             }
 
-            keyCollection[key].Comments = commentsListAux;
+            keyCollection[key].Comments.AddRange(commentsListAux);
             commentsListAux.Clear();
         }
     }
