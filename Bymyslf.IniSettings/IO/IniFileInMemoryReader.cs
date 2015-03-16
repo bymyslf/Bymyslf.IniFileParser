@@ -20,12 +20,12 @@ namespace Bymyslf.IniSettings.IO
         {
             if (String.IsNullOrEmpty(path))
             {
-                throw new ArgumentException("File path cannot be null or empty!");
+                throw new ArgumentException("path cannot be null or empty");
             }
 
             if (parser == null)
             {
-                throw new ArgumentNullException("Parser cannot be null!");
+                throw new ArgumentNullException("parser cannot be null");
             }
 
             this.filePath = path;
