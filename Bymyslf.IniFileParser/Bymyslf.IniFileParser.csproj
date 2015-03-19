@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\IniFileParseException.cs" />
     <Compile Include="Formatting\IIniFileFormatter.cs" />
     <Compile Include="Formatting\IniFileFormatter.cs" />
     <Compile Include="IO\IIniFileReader.cs" />
