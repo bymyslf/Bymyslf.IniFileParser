@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bymyslf.IniFileParser.Exceptions;
+using System;
 using System.IO;
 
 namespace Bymyslf.IniFileParser.Parsing
@@ -17,10 +18,17 @@ namespace Bymyslf.IniFileParser.Parsing
             commentsListAux.Clear();
             sectionAux = null;
 
-            while (iniFileStream.Peek() >= 0)
+            try
             {
-                string currentLine = iniFileStream.ReadLine();
-                ReadLine(currentLine, file);
+                while (iniFileStream.Peek() >= 0)
+                {
+                    string currentLine = iniFileStream.ReadLine();
+                    ReadLine(currentLine, file);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new IniFileParseException("Couldn't parse the file!", ex);
             }
 
             return file;

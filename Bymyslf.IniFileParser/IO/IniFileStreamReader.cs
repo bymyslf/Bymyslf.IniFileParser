@@ -1,4 +1,5 @@
-﻿using Bymyslf.IniFileParser.Parsing;
+﻿using Bymyslf.IniFileParser.Exceptions;
+using Bymyslf.IniFileParser.Parsing;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -49,7 +50,7 @@ namespace Bymyslf.IniFileParser.IO
                     }
                 }
             }
-            catch (IOException ex)
+            catch (Exception ex)
             {
                 throw;
             }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bymyslf.IniFileParser.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -35,6 +36,8 @@ namespace Bymyslf.IniFileParser.Parsing
                 ProcessKey(currentLine, file);
                 return;
             }
+
+            throw new IniFileParseException(String.Format("Invalid format. Couldn't parse the line: {0}", currentLine));
         }
 
         protected virtual bool IsCommentLine(string currentLine)
@@ -60,7 +63,7 @@ namespace Bymyslf.IniFileParser.Parsing
 
             if (file.Sections.ContainsSection(sectionName))
             {
-                //TO DO: throw exception
+                throw new IniFileParseException(String.Format("INI file already contains a section named {0}", sectionName));
             }
 
             file.Sections.AddSection(sectionName);
